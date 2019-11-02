@@ -1,0 +1,22 @@
+{
+  "name": "griha-pravesha",
+  "version": "1.0.0",
+  "description": "Web invitation for Griha Pravesha (Indian home warming)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarSidharth/indianHomeWarming.git"
+  },
+  "keywords": [
+    "home-warming",
+    "griha-pravesha"
+  ],
+  "author": "Kumar Sidharth",
+  "bugs": {
+    "url": "https://github.com/KumarSidharth/indianHomeWarming/issues"
+  },
+  "homepage": "https://github.com/KumarSidharth/indianHomeWarming#readme"
+}
