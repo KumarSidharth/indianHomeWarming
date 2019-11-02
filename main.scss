@@ -1,3 +1,5 @@
+$inkColor: #442dbf;
+
 html, body {
     margin: 0;
     background-color: #fff;
@@ -5,5 +7,20 @@ html, body {
     linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
     linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
-    color: #16264c;
+    color: $inkColor;
+    font-family: 'Tillana', cursive;
+    * {
+        background: transparent;
+    }
 }
+
+main {
+    margin: 16px 0 0 86px;
+    background: transparent;
+}
+
+p {
+    margin: 0;
+    line-height: 1.35;
+}
+
