@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/KumarSidharth/indianHomeWarming/issues"
   },
-  "homepage": "https://github.com/KumarSidharth/indianHomeWarming#readme"
+  "homepage": "https://github.com/KumarSidharth/indianHomeWarming#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "typescript": "^3.6.4"
+  }
 }
