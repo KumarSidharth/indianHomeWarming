@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  background-color: #fff;
+  background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.3em;
+  color: #442dbf;
+  font-family: 'Tillana', cursive;
+}
+
+html *, body * {
+  background: transparent;
+}
+
+main {
+  margin: 16px 0 0 86px;
+  background: transparent;
+}
+
+p {
+  margin: 0;
+  line-height: 1.35;
+}
+
+article, footer {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
