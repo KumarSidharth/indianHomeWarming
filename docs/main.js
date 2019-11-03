@@ -1,3 +1,4 @@
+"use strict";
 var DateFormat;
 (function (DateFormat) {
     DateFormat["Long"] = "long";
@@ -40,3 +41,4 @@ function load() {
     setDate();
     setName();
 }
+//# sourceMappingURL=main.js.map

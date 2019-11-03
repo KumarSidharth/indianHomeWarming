@@ -31,7 +31,7 @@ function getName (): string {
 function setName() {
     let name = getName();
     if (!name || name === '') {
-        name = 'संबंधी'
+        name = 'संबंधी';
     }
     nameContainer.innerText = name;
 }
