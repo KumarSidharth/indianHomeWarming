@@ -3,8 +3,8 @@ enum DateFormat {
     Numeric = 'numeric'
 };
 const HindiLocale = 'hi-IN';
-var dateContainer: HTMLSpanElement;
-var nameContainer: HTMLSpanElement;
+var dateContainer: HTMLElement;
+var nameContainer: HTMLElement;
 
 function setDate() {
     const options = {
@@ -30,12 +30,15 @@ function getName (): string {
 
 function setName() {
     let name = getName();
+    if (!name || name === '') {
+        name = 'संबंधी'
+    }
     nameContainer.innerText = name;
 }
 
 function load() {
-    dateContainer = document.getElementById('date');
-    nameContainer = document.getElementById('name');
+    dateContainer = document.getElementById('date') as HTMLElement;
+    nameContainer = document.getElementById('name') as HTMLElement;
     setDate();
     setName();
 }
